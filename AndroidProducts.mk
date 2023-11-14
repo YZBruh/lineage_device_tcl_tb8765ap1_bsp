@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tb8765ap1_bsp.mk
+    $(LOCAL_DIR)/arrow_tb8765ap1_bsp.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tb8765ap1_bsp-user \
-    lineage_tb8765ap1_bsp-userdebug \
-    lineage_tb8765ap1_bsp-eng
+    arrow_tb8765ap1_bsp-user \
+    arrow_tb8765ap1_bsp-userdebug \
+    arrow_tb8765ap1_bsp-eng
