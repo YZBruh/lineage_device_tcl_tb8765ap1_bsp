@@ -8,5 +8,5 @@
 |GPU                 |IMG PowerVR GE8100                                            |
 |Memory              |2/3GB RAM                                                     |
 |Android Version (Stock)    |9                                                             |
-| ArrowOS Version  | Android 13     |
+| LineageOS Version  | Android 13     |
 |Storage             |16/32GB                        |
