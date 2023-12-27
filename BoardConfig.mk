@@ -79,6 +79,10 @@ BOARD_SUPER_PARTITION_GROUPS := tb8765ap1_bsp_dynparts
 BOARD_TB8765AP1_BSP_DYNPARTS_SIZE := 3263168512
 BOARD_TB8765AP1_BSP_DYNPARTS_PARTITION_LIST := system vendor
 
+# Sepolicy dirs. Required for fastbootd
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+PRODUCT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+
 # Partitons and construction details
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 TARGET_COPY_OUT_VENDOR := vendor
