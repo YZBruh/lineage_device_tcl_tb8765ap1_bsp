@@ -20,6 +20,10 @@ PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-impl.recovery \
