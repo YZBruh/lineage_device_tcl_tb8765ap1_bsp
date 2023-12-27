@@ -1,9 +1,7 @@
 dalvik.vm.debug.alloc=0
 dalvik.vm.lockprof.threshold=500
-fw.max_users=10
 keyguard.no_require_sim=true
 media.recorder.show_manufacturer_and_model=true
-net.bt.name=Android
 net.tethering.noprovisioning=true
 persist.debug.dalvik.vm.core_platform_api_policy=just-warn
 persist.sys.disable_rescue=true
@@ -11,12 +9,12 @@ persist.sys.max_profiles=10
 persist.sys.overlay.nightmode=true
 persist.sys.strictmode.disable=true
 persist.sys.theme.accentcolor=-1
-ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
-ro.boot.realme.lockstate=0
 ro.build.product=tb8765ap1_bsp
-ro.com.android.dateformat=MM-dd-yyyy
-ro.control_privapp_permissions=log
-ro.opa.eligible_device=true
-ro.product.cpu.abi2=armeabi
 ro.storage_manager.enabled=true
 ro.sys.sdcardfs=0
+
+# Fastbootd
+ro.fastbootd.available=true
+
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/config
