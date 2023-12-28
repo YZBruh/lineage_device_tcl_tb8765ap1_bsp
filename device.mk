@@ -72,6 +72,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := false
 PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
+    fstab.mt8765_ramdisk\
     fstab.mt8765 \
     factory_init.connectivity.rc \
     factory_init.project.rc \
