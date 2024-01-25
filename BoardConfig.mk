@@ -103,8 +103,8 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 # Hardware
 BOARD_USES_MTK_HARDWARE := true
 
-# VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Inherit the proprietary files
 include vendor/tcl/tb8765ap1_bsp/BoardConfigVendor.mk
