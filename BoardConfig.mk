@@ -108,3 +108,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
 include vendor/tcl/tb8765ap1_bsp/BoardConfigVendor.mk
+include device/mediatek/sepolicy/sepolicy.mk
